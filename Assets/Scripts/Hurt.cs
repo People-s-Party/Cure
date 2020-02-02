@@ -19,14 +19,23 @@ public class Hurt : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trap")
         {
-            GameObject.Find("PlayerSprite").GetComponent<SpriteRenderer>().sprite = deadSprite;
-            GetComponent<AudioSource>().Play();
-            GetComponent<Character>().PlayerSpeed = 0;
-            Invoke("WhiteAgain", 0.2f);
-
+            Hurting();
         }
     }
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Hurting();
+        }
+    }
+    void Hurting()
+    {
+        GameObject.Find("PlayerSprite").GetComponent<SpriteRenderer>().sprite = deadSprite;
+        GetComponent<AudioSource>().Play();
+        GetComponent<Character>().PlayerSpeed = 0;
+        Invoke("WhiteAgain", 0.2f);
+    }
     void WhiteAgain()
     {
         GameObject.Find("PlayerSprite").GetComponent<SpriteRenderer>().sprite = oriSprite;

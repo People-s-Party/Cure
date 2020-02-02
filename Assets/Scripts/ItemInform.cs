@@ -9,7 +9,6 @@ public class ItemInform : MonoBehaviour
     public string needName = "";
     public string dialogueNum = "";
     public string sceneName;
-    public string eventsAfterPicking = "";
     private void Start()
     {
 
@@ -64,7 +63,24 @@ public class ItemInform : MonoBehaviour
             }
             if (itemtype == 1)
             {
-                //
+                if(needName == "")
+                {
+                    GetComponent<ChangeSprite>().Changesprite();
+                }
+                else
+                {
+                    bool haschanged = false;
+                    for (int i = 1; i < 8; i++)
+                    {
+                        GameObject invTemp = GameObject.Find("Inv" + i);
+                        if (needName == invTemp.GetComponent<InventoryInform>().itemName)
+                        {
+                            haschanged = true;                            
+                            GetComponent<ChangeSprite>().Changesprite();
+                        }
+                    }
+                    if (!haschanged) Messenger.Broadcast<string>(Events.Dialogue, dialogueNum);
+                }
 
             }
             if (itemtype == 2)
