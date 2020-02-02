@@ -1378,7 +1378,6 @@ MonoBehaviour:
   needName: 
   dialogueNum: 
   sceneName: 
-  eventsAfterPicking: 
 --- !u!212 &1389983543
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1518,7 +1517,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: needName
-      value: AH0
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
