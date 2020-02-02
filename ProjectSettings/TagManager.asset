@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interface
   - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Player
   - Interface
   - Trap
-  - 
+  - Enemy
   - 
   - 
   - 
