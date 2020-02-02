@@ -550,8 +550,6 @@ GameObject:
   m_Component:
   - component: {fileID: 232141009}
   - component: {fileID: 232141008}
-  - component: {fileID: 232141007}
-  - component: {fileID: 232141006}
   m_Layer: 9
   m_Name: CodeH
   m_TagString: Interface
@@ -559,49 +557,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &232141006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232141005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621f1af11657fc549867736231b3adf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemtype: 0
-  needName: 
-  dialogueNum: 
-  sceneName: 
-  eventsAfterPicking: traped
---- !u!61 &232141007
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232141005}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7, y: 0.7}
-    newSize: {x: 0.7, y: 0.7}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.7, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!212 &232141008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -663,7 +618,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 619690784}
-  m_RootOrder: 19
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &342351381 stripped
 Transform:
@@ -887,11 +842,11 @@ Transform:
   - {fileID: 1010507010}
   - {fileID: 342351381}
   - {fileID: 570737531}
+  - {fileID: 232141009}
   - {fileID: 1472760192}
   - {fileID: 860263574}
   - {fileID: 534825366}
   - {fileID: 660734945}
-  - {fileID: 232141009}
   - {fileID: 1683453651}
   - {fileID: 127052692}
   - {fileID: 1514794135}
