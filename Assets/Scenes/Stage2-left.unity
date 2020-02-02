@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &99211763
 Transform:
   m_ObjectHideFlags: 0
@@ -545,7 +545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &598559864
 Transform:
   m_ObjectHideFlags: 0
@@ -576,6 +576,7 @@ GameObject:
   - component: {fileID: 613335361}
   - component: {fileID: 613335363}
   - component: {fileID: 613335364}
+  - component: {fileID: 613335365}
   m_Layer: 9
   m_Name: passdoorA
   m_TagString: Interface
@@ -728,6 +729,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.7}
   m_EdgeRadius: 0
+--- !u!114 &613335365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613335359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7a870cbf2dfd45bffdbc0b9be9e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightcode: h
+  connection: RD Door? 2
 --- !u!1001 &1284170092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -803,7 +818,7 @@ PrefabInstance:
     - target: {fileID: 7804720566449287492, guid: c1a08ae5cf4b8f542bb2e5bd2de41f52,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a08ae5cf4b8f542bb2e5bd2de41f52, type: 3}
@@ -829,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1317483292
 Transform:
   m_ObjectHideFlags: 0
@@ -967,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 642eb6a645ced7847911ee8692ec0ec6, type: 3}

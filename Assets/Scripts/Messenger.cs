@@ -44,7 +44,8 @@ public enum Events {
     PickUpItem,
     EventHappened,
     EnterDoor,
-    EnterPlace
+    EnterPlace,
+    EnterPlaceoff
 }
 
 static internal class Messenger {

@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class PassDoorOpen : MonoBehaviour
 {
-    public GameObject doorA;
-    public GameObject doorB;
-    public GameObject doorC;
+    public string[] needs;
+    private bool[] activecount;
+    public bool active;
     // Start is called before the first frame update
     void Start()
     {
-        doorA = GameObject.Find("passdoorA");
-        doorB = GameObject.Find("passdoorB");
-        doorC = GameObject.Find("passdoorC");
-
+        activecount = new bool[needs.Length];
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(doorA.GetComponent<SpriteRenderer>().sprite.name == "h" | doorB.GetComponent<SpriteRenderer>().sprite.name == "a" | doorC.GetComponent<SpriteRenderer>().sprite.name == "0")
+        bool open =true;
+        foreach (bool i in activecount)
         {
-            GetComponent<ItemInform>().needName = "";
-
+            if (!i) open = false;
         }
+        if (open) active = true;
+    }
+    private void OnEnable()
+    {
+        Messenger.AddListener<string,string>(Events.)
     }
 }

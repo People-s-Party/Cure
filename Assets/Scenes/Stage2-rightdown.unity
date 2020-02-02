@@ -195,7 +195,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_Name
-      value: "Door\uFF1F2"
+      value: RD Door? 2
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
@@ -600,6 +600,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c09fe2166c661848b88ab1475656f38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorA: {fileID: 0}
-  doorB: {fileID: 0}
-  doorC: {fileID: 0}
+  needs: []
+  activecount: 0
