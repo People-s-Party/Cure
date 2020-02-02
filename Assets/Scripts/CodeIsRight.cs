@@ -10,6 +10,6 @@ public class CodeIsRight : MonoBehaviour
     void Update()
     {
         if (rightcode == GetComponent<SpriteRenderer>().sprite.name) Messenger.Broadcast<string, string>(Events.EnterPlace, connection, transform.name);
-        else Messenger.Broadcast<string,string>(Events.EnterPlaceoff, connection, transform.name);
+        else Messenger.Broadcast<string, string>(Events.EnterPlaceoff, connection, transform.name);
     }
 }

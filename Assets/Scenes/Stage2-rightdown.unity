@@ -127,6 +127,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1009050181}
     m_Modifications:
+    - target: {fileID: -4313498261020717340, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: doorDir
+      value: right
+      objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -211,6 +216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1009050181}
     m_Modifications:
+    - target: {fileID: -4313498261020717340, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: doorDir
+      value: up
+      objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -588,7 +598,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 88321553}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2086758554
+--- !u!114 &2086758550
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -597,8 +607,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2086758548}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c09fe2166c661848b88ab1475656f38, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f3129acb1153114d86f819029d59a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  needs: []
-  activecount: 0

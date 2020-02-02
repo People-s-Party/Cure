@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &99211763
 Transform:
   m_ObjectHideFlags: 0
@@ -213,6 +213,7 @@ GameObject:
   - component: {fileID: 255493231}
   - component: {fileID: 255493230}
   - component: {fileID: 255493229}
+  - component: {fileID: 255493233}
   m_Layer: 9
   m_Name: passdoorC
   m_TagString: Interface
@@ -365,6 +366,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &255493233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255493227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7a870cbf2dfd45bffdbc0b9be9e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightcode: 0
+  connection: RD Door? 2
 --- !u!1 &363285764
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +393,7 @@ GameObject:
   - component: {fileID: 363285768}
   - component: {fileID: 363285767}
   - component: {fileID: 363285766}
+  - component: {fileID: 363285770}
   m_Layer: 9
   m_Name: passdoorB
   m_TagString: Interface
@@ -530,6 +546,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &363285770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363285764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c7a870cbf2dfd45bffdbc0b9be9e23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightcode: a
+  connection: RD Door? 2
 --- !u!1 &598559863
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +575,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &598559864
 Transform:
   m_ObjectHideFlags: 0
@@ -561,7 +591,7 @@ Transform:
   - {fileID: 363285765}
   - {fileID: 255493228}
   m_Father: {fileID: 2050105907}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &613335359
 GameObject:
@@ -818,7 +848,7 @@ PrefabInstance:
     - target: {fileID: 7804720566449287492, guid: c1a08ae5cf4b8f542bb2e5bd2de41f52,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1a08ae5cf4b8f542bb2e5bd2de41f52, type: 3}
@@ -844,7 +874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1317483292
 Transform:
   m_ObjectHideFlags: 0
@@ -909,6 +939,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2050105907}
     m_Modifications:
+    - target: {fileID: -4313498261020717340, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: doorDir
+      value: right
+      objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
@@ -982,7 +1017,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 642eb6a645ced7847911ee8692ec0ec6, type: 3}
@@ -1035,8 +1070,8 @@ Transform:
   - {fileID: 99211763}
   - {fileID: 1317483292}
   - {fileID: 1284170093}
-  - {fileID: 1989445687}
   - {fileID: 598559864}
+  - {fileID: 1989445687}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

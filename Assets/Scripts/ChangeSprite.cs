@@ -12,7 +12,7 @@ public class ChangeSprite : MonoBehaviour
     }
     public void Changesprite()
     {
-        if (num < sprites.Length) num += 1;
+        if (num < sprites.Length-1) num += 1;
         else num = 0;
         GetComponent<SpriteRenderer>().sprite = sprites[num];
     }
