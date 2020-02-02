@@ -21,7 +21,6 @@ public class HightLight : MonoBehaviour
             else colorValue += 1;
             time = 0;
             GetComponent<SpriteRenderer>().color = new Color(colorValue / 255, colorValue / 255, colorValue / 255);
-            Debug.Log(GetComponent<SpriteRenderer>().color);
             if (colorValue >= 255 | colorValue <= 160)
             {
                 flip = !flip;
