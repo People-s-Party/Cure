@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class ChangeSprite : MonoBehaviour
 {
-    // Update is called once per frame
-    void Update()
+    public Sprite[] sprites;
+    private int num = 0;
+    private void Start()
     {
         
     }
-    void Changesprite()
+    public void Changesprite()
     {
-
+        
     }
 }
