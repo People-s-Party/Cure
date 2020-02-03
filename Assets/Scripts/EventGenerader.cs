@@ -23,11 +23,11 @@ public class EventGenerader : MonoBehaviour
             Messenger.Broadcast<string>(Events.Dialogue, "AfterBraveHeart");
             
         }
-        if (name == "CodeH")
+        /*if (name == "CodeH")
         {
             Vector3 Place = new Vector3(-8.0f, -5.75f);
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
 
-        }
+        }*/
     }
 }

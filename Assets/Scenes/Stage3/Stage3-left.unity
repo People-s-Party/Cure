@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 50709338}
   - component: {fileID: 50709337}
   m_Layer: 0
-  m_Name: Main Object (2)
+  m_Name: 'Main Object '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -246,6 +246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Door\uFF1F"
       objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 642eb6a645ced7847911ee8692ec0ec6, type: 3}
 --- !u!4 &304275356 stripped
@@ -350,6 +355,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.7071068
       objectReference: {fileID: 0}
@@ -357,6 +372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164659, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
@@ -388,6 +408,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Door\uFF1F"
       objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 642eb6a645ced7847911ee8692ec0ec6, type: 3}
 --- !u!4 &389079421 stripped
@@ -412,7 +437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &494861265
 Transform:
   m_ObjectHideFlags: 0
@@ -685,7 +710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1600165482
 Transform:
   m_ObjectHideFlags: 0
@@ -720,7 +745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1649677205
 Transform:
   m_ObjectHideFlags: 0
