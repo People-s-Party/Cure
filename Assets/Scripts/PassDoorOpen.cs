@@ -36,7 +36,6 @@ public class PassDoorOpen : MonoBehaviour
     }
     void Connect(string thisname, string thatname)
     {
-        Debug.Log("ad");
         if (thisname == doorname) 
             for (int i = 0; i < needs.Length; i++)
             {
