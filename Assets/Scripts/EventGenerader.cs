@@ -29,5 +29,15 @@ public class EventGenerader : MonoBehaviour
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
 
         }*/
+        if(name == "breadbw")
+        {
+            Vector3 Place = new Vector3(-4.8f, 2.14f);
+            Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
+        }
+        if (name == "key")
+        {
+            Vector3 Place = new Vector3(-4.8f, 2.14f);
+            Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
+        }
     }
 }
