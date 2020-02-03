@@ -463,7 +463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1666462497}
   - component: {fileID: 1666462496}
-  - component: {fileID: 1666462498}
+  - component: {fileID: 1666462495}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -471,6 +471,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1666462495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666462494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3d9994fb39de84e8493e31b7f367ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &1666462496
 Camera:
   m_ObjectHideFlags: 0
@@ -528,18 +540,6 @@ Transform:
   m_Father: {fileID: 759039431}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1666462498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1666462494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b3d9994fb39de84e8493e31b7f367ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2018964097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -694,6 +694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneName
       value: Stage2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: dialogueNum
+      value: Stage1Door
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}

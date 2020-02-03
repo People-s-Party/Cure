@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 3223514709021534256, guid: b64290c490a6d1b4380e843824b73781,
         type: 3}
       propertyPath: m_Name
-      value: Main Object (1)
+      value: Main Object
       objectReference: {fileID: 0}
     - target: {fileID: 5027700412284076784, guid: b64290c490a6d1b4380e843824b73781,
         type: 3}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 711729001}
   - component: {fileID: 711729000}
   m_Layer: 0
-  m_Name: Main Object (1)
+  m_Name: Main Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
