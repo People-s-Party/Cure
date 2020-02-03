@@ -299,7 +299,6 @@ MonoBehaviour:
   needName: 
   dialogueNum: BH
   sceneName: 
-  eventsAfterPicking: 
 --- !u!61 &397053368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -469,7 +468,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: sceneName
-      value: GameScene1
+      value: Stage1
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}

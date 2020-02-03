@@ -693,7 +693,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: sceneName
-      value: GameScene3
+      value: Stage2
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
@@ -774,6 +774,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
+        type: 3}
+      propertyPath: sceneName
+      value: Stage1-left
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164670, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
