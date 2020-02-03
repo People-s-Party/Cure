@@ -34,7 +34,6 @@ public class ItemInform : MonoBehaviour
                     //如果无需求，捡起
                     Messenger.Broadcast<string, Sprite>(Events.itemget, gameObject.name, GetComponent<SpriteRenderer>().sprite);
                     Destroy(this.gameObject);
-                    Messenger.Broadcast<string>(Events.Dialogue, "pickedup");
                     Messenger.Broadcast<string>(Events.EventHappened, name);
                 }
                 else
@@ -50,7 +49,6 @@ public class ItemInform : MonoBehaviour
                             Messenger.Broadcast<string, Sprite>(Events.itemget, gameObject.name, GetComponent<SpriteRenderer>().sprite);
                             hasPickedUp = true;
                             GameObject.Find("EName").gameObject.SetActive(false);
-                            Messenger.Broadcast<string>(Events.Dialogue, "pickedup");
                             Messenger.Broadcast<string>(Events.EventHappened, name);
                             Destroy(this.gameObject);
                         }
@@ -104,6 +102,7 @@ public class ItemInform : MonoBehaviour
                             //进去了
                             Messenger.Broadcast<string,string>(Events.changeScene, sceneName, GetComponent<DoorInform>().doorDir);
                             Messenger.Broadcast<string>(Events.Usingitem, needName);
+                            needName = "";
                             i = 10;
                             isEntered = true;
                         }
