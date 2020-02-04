@@ -23,6 +23,7 @@ public class PassDoorOpen : MonoBehaviour
             if (!i) open = false;
         }
         if (open) active = true;
+        else active = false;
     }
     private void OnEnable()
     {
