@@ -31,12 +31,12 @@ public class EventGenerader : MonoBehaviour
         }*/
         if(name == "breadbw")
         {
-            Vector3 Place = new Vector3(-4.8f, 2.14f);
+            Vector3 Place = Vector3.zero;
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
         }
         if (name == "key")
         {
-            Vector3 Place = new Vector3(-4.8f, 2.14f);
+            Vector3 Place = Vector3.zero;
             Instantiate(PrefabForEvent, Place, Quaternion.identity, MainObject);
         }
     }

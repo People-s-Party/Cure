@@ -424,7 +424,7 @@ PrefabInstance:
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
       propertyPath: sceneName
-      value: S4
+      value: EndScene
       objectReference: {fileID: 0}
     - target: {fileID: 7202171032001164661, guid: 642eb6a645ced7847911ee8692ec0ec6,
         type: 3}
@@ -722,7 +722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1810428592
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class UIMainMenu : MonoBehaviour
 {
-    public string startSceneeName = "GameScene";
-
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +19,14 @@ public class UIMainMenu : MonoBehaviour
 
     public void GoToMainScene()
     {
-        SceneManager.LoadScene(startSceneeName);
+        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadSceneAsync("UI", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Stage1-left", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Stage2", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Stage2-left", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Stage2-right", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Stage2-rightdown", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Emppty", LoadSceneMode.Additive);
 
     }
 
